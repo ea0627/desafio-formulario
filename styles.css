@@ -1,0 +1,70 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+main{
+    background-image: linear-gradient(whitesmoke, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    height: 40px;
+    color: gray;
+}
+
+#mensaje{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+
+    background-color:whitesmoke;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: 0px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+
+}
+
+footer{
+    background-color: lightblue;
+}
+
+footer h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color:whitesmoke;
+}
